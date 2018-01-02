@@ -64,7 +64,7 @@ describe('FileProcessor', function () {
       };
 
       var result = fp.replaceWith(block);
-      assert.equal(result, '  <link rel="stylesheet" href="foo.css">');
+      assert.equal(result, '  <link rel="stylesheet" type="text/css" href="foo.css">');
     });
 
     it('should remove css blocks which have no stylesheets linked in them', function () {
