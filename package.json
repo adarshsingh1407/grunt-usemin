@@ -12,7 +12,7 @@
     "css",
     "optimize"
   ],
-  "repository": "adarshsingh1407/grunt-usemin",
+  "repository": "adarshsingh1407/neo-grunt-usemin",
   "scripts": {
     "test": "grunt test"
   },
